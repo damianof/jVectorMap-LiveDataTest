@@ -1,6 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
     <title></title>
     <link href="Stylesheets/VectorMap.css" media="screen" rel="stylesheet" type="text/css" />
@@ -38,8 +37,8 @@
 
     		divMap.vectorMap({
     			values: testData,
-    			//scaleColors: ['#CC0000', '#CC9900', '#00CC00', '#FFFFFF'],
-    			scaleColors: ['#FFFFFF', '#00CC00', '#FFFF00', '#0000CC'],
+    			scaleColors: ['#CC0000', '#CC9900', '#00CC00', '#FFFFFF'],
+    			//scaleColors: ['#FFFFFF', '#00CC00', '#FFFF00', '#0000CC'],
     			normalizeFunction: 'polynomial',
     			hoverOpacity: 0.7,
     			hoverColor: false
@@ -117,7 +116,6 @@
     				i++;
     		return i;
     	}
-
 
     	jQuery.extend({
     		random: function (X) {
